@@ -1,0 +1,29 @@
+.profil {
+    text-align: center;
+    position: relative;
+}
+
+.profil-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.connection-statut {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 10px;
+    position: absolute;
+    top: 63%;
+    left: 53%;
+}
+
+.connected {
+    background-color: rgb(77, 201, 77);
+}
+
+.disconnected {
+    background-color: rgb(201, 77, 77);
+}
